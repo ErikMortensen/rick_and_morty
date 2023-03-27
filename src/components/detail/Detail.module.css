@@ -1,0 +1,11 @@
+.container {
+    color: aliceblue;
+}
+.containerInfo{
+    display: flex;
+    justify-content: space-around;
+}
+
+.containerBtnBack {
+    border-radius: 10px;
+}

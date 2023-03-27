@@ -1,0 +1,81 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  width: 230px;
+  height: 270px;
+  border-radius: 20px;
+  background-color: aliceblue;
+  transition: all 0.5s ease;
+  box-shadow: 0 0 20px rgba(0, 255, 255, 0.6);
+}
+
+.container:hover {
+  transform: scale(1.05);
+}
+
+.buttonContainer {
+  display: flex;
+  justify-content: space-between
+}
+
+.button {
+  border-radius: 20px;
+  margin: 10px 10px 0 0;
+  border: none;
+  background-color: red;
+  color: aliceblue;
+}
+
+.buttonNull {
+  border-radius: 20px;
+  margin: 10px 10px 0 0;
+  border: none;
+  /* background-color: rgba(223, 30, 30, 0.54)); */
+  color: aliceblue;
+  cursor: not-allowed;
+  pointer-events:none;
+}
+
+.button:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+}
+
+img {
+  width: 200px;
+  border-radius: 10px 10px 0 0;
+}
+.imageContainer {
+  display: flex;
+  flex-direction: column-reverse;
+  margin-top: 10px;
+  align-items: center;
+}
+.name {
+  color: rgb(150, 19, 226);
+  position: absolute;
+  margin-bottom: 0px;
+}
+.propsContainer {
+  display: flex;
+  justify-content: space-evenly;
+  background-color: black;
+  margin: 0px;
+  color: rgb(150, 19, 226);
+  border-radius: 0 0 20px 20px;
+}
+
+.propsContainer h2 {
+    margin: 0;
+}
+
+.link {
+  text-decoration: none;
+  color: inherit;
+}
+
+.buttonContainerFav {
+  border: none;
+  background-color: rgba(248, 248, 248, 1);
+  border-radius: 10px 0 0 0;
+}

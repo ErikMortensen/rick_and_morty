@@ -1,0 +1,28 @@
+.container {
+  display: flex;
+  justify-content: center;
+}
+input {
+  /* background-color: rgba(0, 255, 255, 0.6); */
+  background-color: rgba(199, 112, 216, 0.65);
+  font-family: cursive;
+  border-radius: 10px 0 0 10px;
+  border-color: rgb(243, 60, 203);
+  outline: none;
+}
+button {
+  border-radius: 0 10px 10px 0;
+  /* border-color: aqua; */
+  border-color: rgb(243, 60, 203);
+  /* color: aqua; */
+  /* background-color: #282c34; */
+  background: rgb(228, 226, 226, 0.54);
+
+
+}
+
+button:hover {
+  color: #282c34;
+  background-color: aqua;
+  cursor: pointer;
+}
